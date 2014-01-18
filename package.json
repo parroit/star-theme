@@ -1,0 +1,37 @@
+{
+  "name": "star-theme",
+  "description": "npm star your GH starred project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/parroit/star-theme",
+  "author": {
+    "name": "Andrea Parodi",
+    "email": "andrea.parodi@ebansoftware.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parroit/star-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parroit/star-theme/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/parroit/star-theme/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/star-theme",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.7.0",
+    "expect.js": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "keywords": []
+}
