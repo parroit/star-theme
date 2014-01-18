@@ -33,5 +33,10 @@
     "expect.js": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "requesty": "~0.6.0",
+    "moment": "~2.5.0",
+    "concat-stream": "~1.4.1"
+  }
 }
